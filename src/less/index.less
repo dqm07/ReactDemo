@@ -1,0 +1,46 @@
+#app {
+  padding: 20px;
+  .main {
+    button {
+      display: block;
+      & + button {
+        margin-top: 20px
+      }
+    }
+  }
+  .add-box {
+    display: flex;
+
+    button {
+      width: 75px
+    }
+
+    input {
+      flex: 1;
+      margin-right: 20px
+    }
+  }
+  .add-list {
+    list-style: none;
+    padding: 0;
+    margin: 50px 0 0;
+    div {
+      position: relative;
+
+      li {
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #eee;
+      }
+  
+      button {
+        position: absolute;
+        right: 0;
+        top: 10px;
+      }
+    }
+  }
+  a {
+    box-sizing: border-box
+  }
+}
