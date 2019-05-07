@@ -4,7 +4,7 @@ import { delectList } from '../../redux/actions';
 import { connect } from 'react-redux';
 
 const List  = ({todos, delect}) => (
-  <ul class="add-list">
+  <ul className="add-list">
     { 
       todos.map(todo => (
         <div key={todo.index}>

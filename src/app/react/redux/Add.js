@@ -16,7 +16,7 @@ class Add extends React.Component {
   render() {
     let input
     return (
-      <div class="add-box">
+      <div className="add-box">
         <Input placeholder="addItemName" ref={node => (input = node)}/>
         <Button type="primary" onClick={(e) => this.handleAdd(e, input.state.value)}>Add</Button>
       </div>

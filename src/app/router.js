@@ -10,7 +10,7 @@ export default () => (
     <Switch>
       <Route path="/form" component={FormTest}/>
       <Route path="/redux" component={Redux}/>
-      {/* <Route path="/mobx" component={Mobx}/> */}
+      <Route path="/mobx" component={Mobx}/>
       <Route path="/" component={Home}/>
     </Switch>
   </BrowserRouter>  

@@ -8,7 +8,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div class="main">
+      <div className="main">
           <Button type="primary" onClick={() => this.gotoFun('/form') }>表单Demo</Button>
           <Button type="primary" onClick={() => this.gotoFun('/redux') }>Redux Demo</Button>
           <Button type="primary" onClick={() => this.gotoFun('/mobx') }>Mobx Demo</Button>
